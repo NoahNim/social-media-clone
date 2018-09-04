@@ -10,7 +10,6 @@ function App(){
     <div>
       <Header/>
       <Profile/>
-      <About/>
       <Feed/>
       <Suggested/>
     </div>

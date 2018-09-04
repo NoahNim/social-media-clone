@@ -30,9 +30,10 @@ function Header(){
     }
   return(
     <div>
-      <h3 style={headerButton}>Home</h3>
-      <h3 style={headerButton}>Notifications</h3>
-      <h3 style={headerButton}>Messages</h3>
+        <h3 style={headerButton}>Home</h3>
+        <h3 style={headerButton}>Notifications</h3>
+        <h3 style={headerButton}>Messages</h3>
+
       <div style={floatDiv}>
         <input type="text" name="search" placeholder="Search" style={searchStyle}/>
         <h3 style={headerButton, tweetStyle}>Tweet</h3>

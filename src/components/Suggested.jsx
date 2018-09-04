@@ -1,8 +1,13 @@
 import React from "react";
 
-function About(){
+var suggestedDivStyle = {
+  width: '20%',
+  float: 'left'
+}
+
+function Suggested(){
   return(
-    <div>
+    <div style={suggestedDivStyle}>
       <div>
         <img/>
         <h5>Lorem ipsum</h5>
@@ -12,7 +17,7 @@ function About(){
         <img/>
         <h5>Lorem ipsum</h5>
       </div>
-      
+
       <div>
         <img/>
         <h5>Lorem ipsum</h5>
@@ -21,4 +26,4 @@ function About(){
   )
 }
 
-export default About;
+export default Suggested;

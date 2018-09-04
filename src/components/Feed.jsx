@@ -1,8 +1,13 @@
 import React from "react";
 
+var feedDivStyle = {
+  width: '50%',
+  float: 'left'
+}
+
 function Feed(){
   return(
-    <div>
+    <div style={feedDivStyle}>
       <div>
         <h4>Lorem Ipsum</h4>
         <p>Lorem Ipsum</p>
